@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --main-color: #FF3C00;
+    --sec-color: #36454F;
+    --thi-color: #ffdfbe;
+}
+
+/* .container {
+    padding: 20px 80px;
+} */
+
+.card {
+    margin-top: 20vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.card img {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.card .about {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.card .about h2 {
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
